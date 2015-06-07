@@ -1,0 +1,38 @@
+{
+  "name": "info-icon",
+  "version": "0.0.1",
+  "description": "A subtle info icon",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "./node_modules/.bin/nakedjs src/demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voltrevo/info-icon.git"
+  },
+  "keywords": [
+    "info",
+    "icon",
+    "css"
+  ],
+  "author": "Andrew Morris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voltrevo/info-icon/issues"
+  },
+  "browserify": {
+    "transform": [
+      "html2jsify",
+      "cssify"
+    ]
+  },
+  "homepage": "https://github.com/voltrevo/info-icon#readme",
+  "devDependencies": {
+    "nakedjs": "0.0.6"
+  },
+  "dependencies": {
+    "cssify": "^0.7.0",
+    "html2jsify": "0.0.2"
+  }
+}
