@@ -1,6 +1,17 @@
 # info-icon
 A subtle info icon
 
+# Quick Demo
+
+```
+git checkout git@github.com:voltrevo/info-icon.git
+cd info-icon
+npm install
+npm run demo
+```
+
+Visit [http://localhost:8080/](http://localhost:8080/)
+
 # Usage
 
 `npm install --save info-icon`
