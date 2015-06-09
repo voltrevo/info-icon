@@ -4,7 +4,7 @@ A subtle info icon
 # Quick Demo
 
 ```
-git checkout git@github.com:voltrevo/info-icon.git
+git clone git@github.com:voltrevo/info-icon.git
 cd info-icon
 npm install
 npm run demo
